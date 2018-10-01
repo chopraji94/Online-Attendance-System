@@ -29,14 +29,42 @@ PYTHON PROJECT ON ONLINE ATTENDANCE SYSTEM
 5. AND OTHER AS -> datetime and threading
 
 
-####  What is a virtual environment?
-At its core, the main purpose of Python virtual environments is to create an isolated environment for Python projects. This means that each project can have its own dependencies, regardless of what dependencies every other project has.
+####  HOW TO GET ALL ABOVE SYSTEM FILES TO BE USED IN PROJECT ( STEPS TO DO AT FIRST USE )
 
-2. Requirement.txt --
-`pip freeze > requirements.txt` apply this without  activating virtual environment and with virtual environment and see the Difference.
+1. **PYTHON 3.6 OR 3.7**
 
-`pip install -r requirements.txt` to install the dependencies.
+    * 3.6.0 -> https://www.python36.com/python-download-install-windows/
+    * 3.7.0 -> https://www.python.org/downloads/
+    
+2. **FLASK**
+    
+    To use all the modeules mentioned in flask need to pip install in your system 
+        * pip install flask
+        
+    Now to import all Flask Modules present in file write
+        *from flask import Flask, render_template, redirect, url_for, session, flash, request, jsonify, Markup
+        *from flask_pymongo import PyMongo
+        
+3. **PYMONGO**
+    
+    First need to pip install the pymongo by -> pip install pymongo
+    
+    Now importing the module used
+    * from pymongo import MongoClient
+    
+4. **PLOTLY**
 
+    First need to pip install the plotly by -> pip install plotly
+    
+    Now importing the module used
+    * from plotly.offline import plot
+    * from plotly.graph_objs import Scatter
+    
+5. **EXTRA MODULE USED** ( These module are pre install so no need to pip install them )
+
+    1. Datetime -> import datetime
+    2. Threading -> import threading
+        
 ## Creating an environment using Conda commands
 
 * Use the **Terminal** or an **Anaconda Prompt** for the following steps.
