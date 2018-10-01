@@ -2,17 +2,32 @@
 
 PYTHON PROJECT ON ONLINE ATTENDANCE SYSTEM
 
-### Installation
+### LIST OF REQUIRED FILES IN THE PROJECT
 
-Flask depends on some external libraries, like **Werkzeug and Jinja2**. *Werkzeug* is a toolkit for **WSGI (Web Server Gateway Integration)**, the standard Python interface between web applications and a variety of servers for both development and deployment. *Jinja2* renders **templates**. (We will Study about them in brief).
+1. **PYTHON 3.6 OR 3.7**
 
-So how do you get all that on your computer quickly? There are many ways you could do that, but the most kick-ass method is **virtualenv**, so let’s have a look at that first.
+2. **FLASK**
 
-1. Virtual Environment :- Python, like most other modern programming languages, has its own unique way of downloading, storing, and resolving packages (or modules). These packages are installed on your system. However third party packages installed by using easy_install or pip are typically placed in one of the directories pointed to by site.getsitepackages:
-* It’s important to know this because, by default, every project on your system will use these same directories to store and retrieve site packages (3rd party libraries).
-* Consider the following scenario where you have two projects - ProjectA and ProjectB, both of which have a dependency on the same library, ProjectC. The problem becomes apparent when we start requiring different versions of ProjectC. Maybe ProjectA needs v1.0.0, while ProjectB requires the newer v2.0.0, for example.
-* This is a real problem for Python since it can’t differentiate between versions in the “site-packages” directory. So both v1.0.0 and v2.0.0 would reside in the same directory with the same name:  And since projects are stored according to just their name there is no differentiation between versions. Thus, both projects, ProjectA and ProjectB, would be required to use the same version, which is unacceptable in many cases.
-* This is where the concept of virtual environments (and the virtualenv/venv tools) comes into play…
+    THE LIST OF MODULE IMPORT USED IN PROJECT IN RESPECT TO FLASK ARE -:
+    
+    * Flask, render_template, redirect, url_for, session, flash, request, jsonify, Markup
+
+3. **PYMONGO**
+    
+    THE LIST OF MODULE IMPORT USED IN PROJECT IN RESPECT TO PYMONGO ARE -:
+    
+    * MongoClient
+
+4. **PLOTLY**
+
+    THE LIST OF MODULE IMPORT USED IN PROJECT IN RESPECT TO PLOTLY ARE -:
+    
+    * plotly.offline -> plot
+
+    * plotly.graph_objs -> Scatter
+    
+5. AND OTHER AS -> datetime and threading
+
 
 ####  What is a virtual environment?
 At its core, the main purpose of Python virtual environments is to create an isolated environment for Python projects. This means that each project can have its own dependencies, regardless of what dependencies every other project has.
