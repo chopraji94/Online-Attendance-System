@@ -65,7 +65,7 @@ PYTHON PROJECT ON ONLINE ATTENDANCE SYSTEM
     1. Datetime -> import datetime
     2. Threading -> import threading
         
-## Creating an environment using Conda commands
+## FOR DTABASE HANDLING IS DONE WITH  MLAB’s PYMONGO.
 
 * Use the **Terminal** or an **Anaconda Prompt** for the following steps.
 
