@@ -42,8 +42,10 @@ PYTHON PROJECT ON ONLINE ATTENDANCE SYSTEM
         * pip install flask
         
     Now to import all Flask Modules present in file write
-        *from flask import Flask, render_template, redirect, url_for, session, flash, request, jsonify, Markup
-        *from flask_pymongo import PyMongo
+    
+    *from flask import Flask, render_template, redirect, url_for, session, flash, request, jsonify, Markup
+        
+    *from flask_pymongo import PyMongo
         
 3. **PYMONGO**
     
@@ -65,9 +67,14 @@ PYTHON PROJECT ON ONLINE ATTENDANCE SYSTEM
     1. Datetime -> import datetime
     2. Threading -> import threading
         
-## FOR DTABASE HANDLING IS DONE WITH  MLAB’s PYMONGO.
+## DTABASE IS MANAGED USING MLAB’s PYMONGO.
 
-* Use the **Terminal** or an **Anaconda Prompt** for the following steps.
+* Link of Videos related to setting up MLAB and how to use with your python file are give below
+
+* Setting up MLAB -> https://www.youtube.com/watch?v=BX9BTQf9-Fc
+
+* Using MLAB with python file -> https://www.youtube.com/watch?v=8GRUwftKAps
+
 
 ##### To create an environment:
 
