@@ -43,24 +43,30 @@ PYTHON PROJECT ON ONLINE ATTENDANCE SYSTEM
         
     Now to import all Flask Modules present in file write
     
+    ```
     *from flask import Flask, render_template, redirect, url_for, session, flash, request, jsonify, Markup
         
     *from flask_pymongo import PyMongo
+    ```
         
 3. **PYMONGO**
     
     First need to pip install the pymongo by -> pip install pymongo
     
     Now importing the module used
+    ```
     * from pymongo import MongoClient
+    ```
     
 4. **PLOTLY**
 
     First need to pip install the plotly by -> pip install plotly
     
     Now importing the module used
+    ```
     * from plotly.offline import plot
     * from plotly.graph_objs import Scatter
+    ```
     
 5. **EXTRA MODULE USED** ( These module are pre install so no need to pip install them )
 
